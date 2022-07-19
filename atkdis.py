@@ -53,7 +53,7 @@ def atk(text):
 	return (Colorate.Horizontal(Colors.rainbow, '                                 ' + text))
 
 def get_prefix(client,message):
-    with open("config.json") as file:
+    with open("config1.json") as file:
         data = json.load(file)
     prefix = data["prefix"]
 
